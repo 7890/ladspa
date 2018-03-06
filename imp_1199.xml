@@ -273,20 +273,20 @@
 
     <port label="impulse" dir="input" type="control" hint="integer,default_1">
       <name>Impulse ID</name>
-      <p>Selects the impulse to convolve with. New impulses have to be compiled in.</p>
       <range min="1" max="IMPULSES"/>
+      <p>Selects the impulse to convolve with. New impulses have to be compiled in.</p>
     </port>
 
     <port label="high_lat" dir="input" type="control" hint="integer,default_0">
       <name>High latency mode</name>
-      <p>If you are running with blocks that are not whole powers of two long, or you are hearing distortion, try changing this to 1.</p>
       <range min="0" max="1"/>
+      <p>If you are running with blocks that are not whole powers of two long, or you are hearing distortion, try changing this to 1.</p>
     </port>
 
     <port label="gain" dir="input" type="control" hint="default_0">
       <name>Gain (dB)</name>
-      <p>Controls the gain of the output signal in dB's.</p>
       <range min="-90" max="+24"/>
+      <p>Controls the gain of the output signal in dB's.</p>
     </port>
 
     <port label="input" dir="input" type="audio">

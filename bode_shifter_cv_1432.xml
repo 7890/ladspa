@@ -154,8 +154,8 @@ static float xcoeffs[] = {
 
     <port label="shift" dir="input" type="audio" hint="default_0">
       <name>Shift CV</name>
-      <p>Controls the frequency shift applied to the input signal, in KHz.</p>
       <range min="0" max="5"/>
+      <p>Controls the frequency shift applied to the input signal, in KHz.</p>
     </port>
 
     <port label="dout" dir="output" type="audio">

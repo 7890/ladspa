@@ -153,14 +153,14 @@
 
     <port label="dry_level" dir="input" type="control" hint="default_0">
       <name>Dry Level (dB)</name>
-      <p>Controls the level of the dry input signal in dB's.</p>
       <range min="-70" max="0"/>
+      <p>Controls the level of the dry input signal in dB's.</p>
     </port>
 
     <port label="wet_level" dir="input" type="control" hint="default_0">
       <name>Wet Level (dB)</name>
-      <p>Controls the level of the delayed signal in dB's.</p>
       <range min="-70" max="0"/>
+      <p>Controls the level of the delayed signal in dB's.</p>
     </port>
 
     <port label="feedback" dir="input" type="control" hint="default_0">

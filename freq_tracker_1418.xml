@@ -58,9 +58,9 @@
 
     <port label="speed" dir="input" type="control" hint="default_middle">
       <name>Tracking speed</name>
+      <range min="0" max="1"/>
       <p>This controls the level of damping applied to the output.</p>
       <p>High values will make the frequency output jump around, low values will make it a bit slow to respond.</p>
-      <range min="0" max="1"/>
     </port>
 
     <port label="input" dir="input" type="audio">

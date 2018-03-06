@@ -39,14 +39,14 @@
 
     <port label="amp" dir="input" type="control" hint="default_minimum">
       <name>Crossover amplitude</name>
-      <p>Controls the point at which the output signal becomes linear.</p>
       <range min="0" max="0.1"/>
+      <p>Controls the point at which the output signal becomes linear.</p>
     </port>
 
     <port label="smooth" dir="input" type="control" hint="default_maximum">
       <name>Smoothing</name>
-      <p>Controls degree of smoothing of the crossover point.</p>
       <range min="0" max="1"/>
+      <p>Controls degree of smoothing of the crossover point.</p>
     </port>
 
     <port label="input" dir="input" type="audio">

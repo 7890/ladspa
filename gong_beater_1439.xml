@@ -74,20 +74,20 @@
 
     <port label="imp_gain" dir="input" type="control" hint="default_minimum">
       <name>Impulse gain (dB)</name>
-      <p>The gain of the input impulse mixed into the output, bringing this up allows you to make the outputted strike more impulsive, but may reduce the gongyness of the resulting output sound.</p>
       <range min="-70" max="0"/>
+      <p>The gain of the input impulse mixed into the output, bringing this up allows you to make the outputted strike more impulsive, but may reduce the gongyness of the resulting output sound.</p>
     </port>
 
     <port label="strike_gain" dir="input" type="control" hint="default_maximum">
       <name>Strike gain (dB)</name>
-      <p>The gain of the simulated pressure wave mixed into the output, bringing this up allows you to make the outputted strike more pure. The final output level is also proportional to the amplitude of the trigger.</p>
       <range min="-70" max="0"/>
+      <p>The gain of the simulated pressure wave mixed into the output, bringing this up allows you to make the outputted strike more pure. The final output level is also proportional to the amplitude of the trigger.</p>
     </port>
 
     <port label="strike_duration" dir="input" type="control" hint="default_middle">
       <name>Strike duration (s)</name>
-      <p>The duration of the pressure wave used to simulate the action of the beater on the gong surface. The longer the duration the more sonorous the resulting gong sound.</p>
       <range min="0.001" max="0.2"/>
+      <p>The duration of the pressure wave used to simulate the action of the beater on the gong surface. The longer the duration the more sonorous the resulting gong sound.</p>
     </port>
 
     <port label="input" dir="input" type="audio">

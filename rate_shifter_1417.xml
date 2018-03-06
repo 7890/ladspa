@@ -68,9 +68,9 @@
 
     <port label="rate" dir="input" type="control" hint="default_1">
       <name>Rate</name>
+      <range min="-4" max="4"/>
       <p>The rate of the output signal; eg. 2.0 will double the speed. Negative numbers will play backwards.</p>
       <p>Pretty much any value will work, but the ranges give what most people are going to want to use. You can get some interesting sounds with very high numbers (e.g. 2000).</p>
-      <range min="-4" max="4"/>
     </port>
 
     <port label="input" dir="input" type="audio">

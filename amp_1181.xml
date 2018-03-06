@@ -26,8 +26,8 @@
 
     <port label="gain" dir="input" type="control" hint="default_0">
       <name>Amps gain (dB)</name>
-      <p>Controls the gain of the input signal in dB's.</p>
       <range min="-70" max="+70"/>
+      <p>Controls the gain of the input signal in dB's.</p>
     </port>
 
     <port label="input" dir="input" type="audio">

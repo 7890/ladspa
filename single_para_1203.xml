@@ -42,22 +42,22 @@
 
     <port label="gain" dir="input" type="control" hint="default_0">
       <name>Gain (dB)</name>
-      <p>The attenuation/gain of the eq.</p>
       <range min="-70" max="+30"/>
+      <p>The attenuation/gain of the eq.</p>
     </port>
 
     <port label="fc" dir="input" type="control" hint="sample_rate,default_440">
       <name>Frequency (Hz)</name>
+      <range min="0" max="0.4"/>
       <p>The centre frequency (ie. point of most/least attenuation).</p>
       <p>Beware of high values for Frequency and Bandwidth, if the high pitch (Frequency * 2$^{Bandwidth}$) goes over half the sample rate you will get aliasing.</p>
       <p>Note: if your host offers you a frequency range between 0 and 0.4 then it's not rendering the input parameter correctly, the input frequency will actually be that number multiplied by the sample rate (e.g. 44.1kHz).</p>
-      <range min="0" max="0.4"/>
     </port>
 
     <port label="bw" dir="input" type="control" hint="default_1">
       <name>Bandwidth (octaves)</name>
-      <p>The pitch difference from the centre before the attenuation has reached half the gain.</p>
       <range min="0" max="4"/>
+      <p>The pitch difference from the centre before the attenuation has reached half the gain.</p>
     </port>
 
     <port label="input" dir="input" type="audio">

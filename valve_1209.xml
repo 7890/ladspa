@@ -63,14 +63,14 @@ plugin_data->otm1 = otm1;
 
     <port label="q_p" dir="input" type="control" hint="default_0">
       <name>Distortion level</name>
-      <p>How hard the signal is driven against the limit of the amplifier.</p>
       <range min="0" max="1"/>
+      <p>How hard the signal is driven against the limit of the amplifier.</p>
     </port>
 
     <port label="dist_p" dir="input" type="control" hint="default_0">
       <name>Distortion character</name>
-      <p>The hardness of the sound, low for soft, high for hard.</p>
       <range min="0" max="1"/>
+      <p>The hardness of the sound, low for soft, high for hard.</p>
     </port>
 
     <port label="input" dir="input" type="audio">

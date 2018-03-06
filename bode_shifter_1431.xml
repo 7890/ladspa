@@ -142,8 +142,8 @@ static float xcoeffs[] = {
 
     <port label="shift" dir="input" type="control" hint="default_0">
       <name>Frequency shift</name>
-      <p>Controls the frequency shift applied to the input signal, in Hz. Note, this is not a pitch shift, so you not get natural sounding results out, it is an audio effect popular with modular synthesists.</p>
       <range min="0" max="5000"/>
+      <p>Controls the frequency shift applied to the input signal, in Hz. Note, this is not a pitch shift, so you not get natural sounding results out, it is an audio effect popular with modular synthesists.</p>
     </port>
 
     <port label="input" dir="input" type="audio">

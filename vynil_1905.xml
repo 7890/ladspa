@@ -189,32 +189,32 @@
 
     <port label="year" dir="input" type="control" hint="default_maximum">
       <name>Year</name>
-      <p>The date of the recording/playback equipment to be simulated.</p>
       <range min="1900" max="1990"/>
+      <p>The date of the recording/playback equipment to be simulated.</p>
     </port>
 
     <port label="rpm" dir="input" type="control" hint="default_minimum">
       <name>RPM</name>
-      <p>The rotational speed of the platter.</p>
       <range min="33" max="78"/>
+      <p>The rotational speed of the platter.</p>
     </port>
 
     <port label="warp" dir="input" type="control" hint="default_0">
       <name>Surface warping</name>
-      <p>The degree of variation in height of the record surface.</p>
       <range min="0.0" max="1.0"/>
+      <p>The degree of variation in height of the record surface.</p>
     </port>
 
     <port label="click" dir="input" type="control" hint="default_0">
       <name>Crackle</name>
-      <p>The number of scratches on the record surface.</p>
       <range min="0.0" max="1.0"/>
+      <p>The number of scratches on the record surface.</p>
     </port>
 
     <port label="wear" dir="input" type="control" hint="default_0">
       <name>Wear</name>
-      <p>The amount of wear on the grooves.</p>
       <range min="0.0" max="1.0"/>
+      <p>The amount of wear on the grooves.</p>
     </port>
 
     <port label="in_l" dir="input" type="audio">

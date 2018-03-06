@@ -41,8 +41,8 @@ if (mode >= 0.0f && mode < 1.0f) {
 
 		<port label="mode" dir="input" type="control" hint="default_0">
 			<name>Mode (0 for none, 1 for half wave, 2 for full wave)</name>
-			<p>The mode parameter is continuously variable from thru to half-wave rectification to full-wave to silence.</p>
 			<range min="0" max="3"/>
+			<p>The mode parameter is continuously variable from thru to half-wave rectification to full-wave to silence.</p>
 		</port>
 
 		<port label="input" dir="input" type="audio">

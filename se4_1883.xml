@@ -113,56 +113,56 @@
 
     <port label="rms_peak" dir="input" type="control" hint="default_minimum">
       <name>RMS/peak</name>
-      <p>The balance between the RMS and peak envelope followers.</p>
       <range min="0" max="1"/>
+      <p>The balance between the RMS and peak envelope followers.</p>
     </port>
 
     <port label="attack" dir="input" type="control" hint="default_low">
       <name>Attack time (ms)</name>
-      <p>The attack time in milliseconds.</p>
       <range min="1.5" max="400"/>
+      <p>The attack time in milliseconds.</p>
     </port>
 
     <port label="release" dir="input" type="control" hint="default_middle">
       <name>Release time (ms)</name>
-      <p>The release time in milliseconds.</p>
       <range min="2" max="800"/>
+      <p>The release time in milliseconds.</p>
     </port>
 
     <port label="threshold" dir="input" type="control" hint="default_maximum">
       <name>Threshold level (dB)</name>
-      <p>The point at which the expander will start to kick in.</p>
       <range min="-30" max="0"/>
+      <p>The point at which the expander will start to kick in.</p>
     </port>
 
     <port label="ratio" dir="input" type="control" hint="default_1">
       <name>Ratio (1:n)</name>
-      <p>The gain expansion ratio used when the signal level exceeds the threshold.</p>
       <range min="1" max="20"/>
+      <p>The gain expansion ratio used when the signal level exceeds the threshold.</p>
     </port>
 
     <port label="knee" dir="input" type="control" hint="default_low">
       <name>Knee radius (dB)</name>
-      <p>The distance from the threshold where the knee curve starts.</p>
       <range min="1" max="10"/>
+      <p>The distance from the threshold where the knee curve starts.</p>
     </port>
 
     <port label="attenuation" dir="input" type="control" hint="default_0">
       <name>Attenuation (dB)</name>
-      <p>Controls the gain of the output signal in dB's. Used to correct for excessive amplitude caused by the extra dynamic range.</p>
       <range min="-24" max="0"/>
+      <p>Controls the gain of the output signal in dB's. Used to correct for excessive amplitude caused by the extra dynamic range.</p>
     </port>
 
     <port label="amplitude" dir="output" type="control">
       <name>Amplitude (dB)</name>
-      <p>The level of the input signal, in decibels.</p>
       <range min="-40" max="+12"/>
+      <p>The level of the input signal, in decibels.</p>
     </port>
 
     <port label="gain_exp" dir="output" type="control">
       <name>Gain expansion (dB)</name>
-      <p>The degree of gain expansion applied to the input signal, in decibels.</p>
       <range min="0" max="+24"/>
+      <p>The degree of gain expansion applied to the input signal, in decibels.</p>
     </port>
 
     <port label="left_in" dir="input" type="audio">

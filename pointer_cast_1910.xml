@@ -61,14 +61,14 @@ anything, but it can make interesting noises.</p>
 
     <port label="cutoff" dir="input" type="control" hint="logarithmic,sample_rate,default_low">
       <name>Effect cutoff freq (Hz)</name>
-      <p>Controls the frequencies that will be passed to the effect.</p>
       <range min="0.0001" max="0.3"/>
+      <p>Controls the frequencies that will be passed to the effect.</p>
     </port>
 
     <port label="wet" dir="input" type="control" hint="default_0">
       <name>Dry/wet mix</name>
-      <p>Controls the ammunt of distorting mixed into the output.</p>
       <range min="0" max="1"/>
+      <p>Controls the ammunt of distorting mixed into the output.</p>
     </port>
 
     <port label="input" dir="input" type="audio">

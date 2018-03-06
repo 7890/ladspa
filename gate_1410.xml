@@ -121,50 +121,50 @@
 
     <port label="lf_fc" dir="input" type="control" hint="sample_rate,default_minimum">
       <name>LF key filter (Hz)</name>
-      <p>Controls the cutoff of the low frequency filter (highpass).</p>
       <range min="0.0007f" max="0.1"/>
+      <p>Controls the cutoff of the low frequency filter (highpass).</p>
     </port>
 
     <port label="hf_fc" dir="input" type="control" hint="sample_rate,default_maximum">
       <name>HF key filter (Hz)</name>
-      <p>Controls the cutoff of the high frequency filter (lowpass).</p>
       <range min="0.005f" max="0.49"/>
+      <p>Controls the cutoff of the high frequency filter (lowpass).</p>
     </port>
 
     <port label="threshold" dir="input" type="control" hint="default_minimum">
       <name>Threshold (dB)</name>
-      <p>Controls the level at which the gate will open.</p>
       <range min="-70" max="+20"/>
+      <p>Controls the level at which the gate will open.</p>
     </port>
 
     <port label="attack" dir="input" type="control" hint="default_low">
       <name>Attack (ms)</name>
-      <p>Controls the time the gate will take to open fully.</p>
       <range min="0.01" max="1000"/>
+      <p>Controls the time the gate will take to open fully.</p>
     </port>
 
     <port label="hold" dir="input" type="control" hint="default_high">
       <name>Hold (ms)</name>
-      <p>Controls the minimum time the gate will stay open for.</p>
       <range min="2" max="2000"/>
+      <p>Controls the minimum time the gate will stay open for.</p>
     </port>
 
     <port label="decay" dir="input" type="control" hint="default_middle">
       <name>Decay (ms)</name>
-      <p>Controls the time the gate will take to close fully.</p>
       <range min="2" max="4000"/>
+      <p>Controls the time the gate will take to close fully.</p>
     </port>
 
     <port label="range" dir="input" type="control" hint="default_minimum">
       <name>Range (dB)</name>
-      <p>Controls the difference between the gate's open and closed state.</p>
       <range min="-90" max="0"/>
+      <p>Controls the difference between the gate's open and closed state.</p>
     </port>
 
     <port label="select" dir="input" type="control" hint="integer,default_0">
       <name>Output select (-1 = key listen, 0 = gate, 1 = bypass)</name>
-      <p>Controls output monitor. -1 is the output of the key filters (so you can check what is being gated on). 0 is the normal, gated output. 1 is bypass mode.</p>
       <range min="-1" max="1"/>
+      <p>Controls output monitor. -1 is the output of the key filters (so you can check what is being gated on). 0 is the normal, gated output. 1 is bypass mode.</p>
     </port>
 
     <port label="input" dir="input" type="audio">

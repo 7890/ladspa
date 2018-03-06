@@ -36,8 +36,8 @@ for (pos = 0; pos < sample_count; pos++) {
 
 		<port label="shapep" dir="input" type="control" hint="default_0">
 			<name>Waveshape</name>
-			<p>Positive values have an expanding effect, and negative values have a compressing effect.</p>
 			<range min="-10" max="+10"/>
+			<p>Positive values have an expanding effect, and negative values have a compressing effect.</p>
 		</port>
 
 		<port label="input" dir="input" type="audio">

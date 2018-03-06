@@ -134,68 +134,68 @@
 
     <port label="ldel" dir="input" type="control" hint="default_low">
       <name>L delay (ms)</name>
-      <p>The delay of the left output in milliseconds.</p>
       <range min="0" max="2700"/>
+      <p>The delay of the left output in milliseconds.</p>
     </port>
 
     <port label="llev" dir="input" type="control" hint="default_middle">
       <name>L level</name>
-      <p>The level of the left output.</p>
       <range min="0" max="50"/>
+      <p>The level of the left output.</p>
     </port>
 
     <port label="cdel" dir="input" type="control" hint="default_low">
       <name>C delay (ms)</name>
-      <p>The delay of the centre output in milliseconds.</p>
       <range min="0" max="2700"/>
+      <p>The delay of the centre output in milliseconds.</p>
     </port>
 
     <port label="clev" dir="input" type="control" hint="default_middle">
       <name>C level</name>
-      <p>The level of the centre output.</p>
       <range min="0" max="50"/>
+      <p>The level of the centre output.</p>
     </port>
 
     <port label="rdel" dir="input" type="control" hint="default_low">
       <name>R delay (ms)</name>
-      <p>The delay of the right output in milliseconds.</p>
       <range min="0" max="2700"/>
+      <p>The delay of the right output in milliseconds.</p>
     </port>
 
     <port label="rlev" dir="input" type="control" hint="default_middle">
       <name>R level</name>
-      <p>The level of the right output.</p>
       <range min="0" max="50"/>
+      <p>The level of the right output.</p>
     </port>
 
     <port label="feedback" dir="input" type="control" hint="default_0">
       <name>Feedback</name>
-      <p>The amount of the C delay output that is mixed back into the delay.</p>
       <range min="-100" max="100"/>
+      <p>The amount of the C delay output that is mixed back into the delay.</p>
     </port>
 
     <port label="high_d" dir="input" type="control" hint="default_middle">
       <name>High damp (%)</name>
-      <p>The damping of the high frequencies in the feedback path.</p>
       <range min="0" max="100"/>
+      <p>The damping of the high frequencies in the feedback path.</p>
     </port>
 
     <port label="low_d" dir="input" type="control" hint="default_middle">
       <name>Low damp (%)</name>
-      <p>The damping of the low frequencies in the feedback path.</p>
       <range min="0" max="100"/>
+      <p>The damping of the low frequencies in the feedback path.</p>
     </port>
 
     <port label="spread" dir="input" type="control" hint="default_middle">
       <name>Spread</name>
-      <p>The width of the stereo image.</p>
       <range min="0" max="50"/>
+      <p>The width of the stereo image.</p>
     </port>
 
     <port label="wet" dir="input" type="control" hint="default_0">
       <name>Dry/Wet level</name>
-      <p>The amounts of the input and effect mixed to produce the output.</p>
       <range min="0" max="1"/>
+      <p>The amounts of the input and effect mixed to produce the output.</p>
     </port>
 
     <port label="in_l" dir="input" type="audio">

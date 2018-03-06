@@ -79,6 +79,7 @@
 
     <port label="wave" dir="input" type="control" hint="integer,default_1">
       <name>Waveform (1=sin, 2=tri, 3=squ, 4=saw)</name>
+      <range min="1" max="BLO_N_WAVES"/>
       <p><![CDATA[
 	The basic shape of the waveform is selected using this control:
 
@@ -93,25 +94,24 @@
         \hline
 	\end{tabular}
       ]]></p>
-      <range min="1" max="BLO_N_WAVES"/>
     </port>
 
     <port label="freq" dir="input" type="control" hint="sample_rate,default_440,logarithmic">
       <name>Frequency (Hz)</name>
-      <p>The frequency of the output (Hz).</p>
       <range min="0.000001" max="0.499"/>
+      <p>The frequency of the output (Hz).</p>
     </port>
 
     <port label="warm" dir="input" type="control" hint="default_0">
       <name>Warmth</name>
-      <p>The degree of softening that is applied to the generated waveform, reduces the number of harmonics in the output.</p>
       <range min="0" max="1"/>
+      <p>The degree of softening that is applied to the generated waveform, reduces the number of harmonics in the output.</p>
     </port>
 
     <port label="instab" dir="input" type="control" hint="default_0">
       <name>Instability</name>
-      <p>The degree of pitch instability of the output. Turning this too high with square and saw waves will produce an annoying jittery sound, I want to fix this but it is tricky.</p>
       <range min="0" max="1"/>
+      <p>The degree of pitch instability of the output. Turning this too high with square and saw waves will produce an annoying jittery sound, I want to fix this but it is tricky.</p>
     </port>
 
     <port label="output" dir="output" type="audio">

@@ -191,28 +191,28 @@ over the limit, and tries to get the minimum amount of distortion.</p>
 
     <port label="ingain" dir="input" type="control" hint="default_0">
       <name>Input gain (dB)</name>
+      <range min="-20" max="20"/>
       <p>Gain that is applied to the input stage. Can be used to trim gain to
 bring it roughly under the limit or to push the signal against the limit.</p>
-      <range min="-20" max="20"/>
     </port>
 
     <port label="limit" dir="input" type="control" hint="default_0">
       <name>Limit (dB)</name>
+      <range min="-20" max="0"/>
       <p>The maximum output amplitude. Peaks over this level will be attenuated
 as smoothly as possible to bring them as close as possible to this level.</p>
-      <range min="-20" max="0"/>
     </port>
 
     <port label="release" dir="input" type="control" hint="default_low">
       <name>Release time (s)</name>
-      <p>The time taken for the limiters attenuation to return to 0 dB's</p>
       <range min="0.01" max="2.0"/>
+      <p>The time taken for the limiters attenuation to return to 0 dB's</p>
     </port>
 
     <port label="attenuation" dir="output" type="control">
       <name>Attenuation (dB)</name>
-      <p>The current attenuation of the signal coming out of the delay buffer.</p>
       <range min="0" max="70"/>
+      <p>The current attenuation of the signal coming out of the delay buffer.</p>
     </port>
 
     <port label="in_1" dir="input" type="audio">

@@ -101,22 +101,22 @@
 
     <port label="mag_1" dir="input" type="control" hint="default_1">
       <name>Fundamental magnitude</name>
-      <p>The amplitude of the fundamental of the signal, reduce it to 0 to remove the base signal altogether, or -1 to phase invert it.</p>
       <range min="-1" max="+1"/>
+      <p>The amplitude of the fundamental of the signal, reduce it to 0 to remove the base signal altogether, or -1 to phase invert it.</p>
     </port>
 
     <port label="mag_2" dir="input" type="control" hint="default_0">
       <name>2nd harmonic magnitude</name>
+      <range min="-1" max="+1"/>
       <p>The 2nd harmonic, its frequency is twice the frequency of the fundamental.</p>
       <p>Even harmonics add a distorted feel to the sound, valve (tube) amplifiers introduce distortions at all the harmonics.</p>
-      <range min="-1" max="+1"/>
     </port>
 
     <port label="mag_3" dir="input" type="control" hint="default_0">
       <name>3rd harmonic magnitude</name>
+      <range min="-1" max="+1"/>
       <p>The 3rd harmonic, its frequency is three times the frequency of the fundamental.</p>
       <p>Transistor amplifiers only introduce distortion into the odd harmonics.</p>
-      <range min="-1" max="+1"/>
     </port>
 
     <port label="mag_4" dir="input" type="control" hint="default_0">

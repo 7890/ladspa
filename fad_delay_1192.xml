@@ -86,8 +86,8 @@ plugin_data->last_in = last_in;
 
 		<port label="delay" dir="input" type="control" hint="default_1">
 			<name>Delay (seconds)</name>
-			<p>The neutral delay time is 2 seconds. Times above 2 seconds will have reduced quality and times below will have increased CPU usage.</p>
 			<range min="0.1" max="10"/>
+			<p>The neutral delay time is 2 seconds. Times above 2 seconds will have reduced quality and times below will have increased CPU usage.</p>
 		</port>
 
 		<port label="fb_db" dir="input" type="control" hint="default_0">

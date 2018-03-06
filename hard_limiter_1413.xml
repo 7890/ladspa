@@ -33,20 +33,20 @@
 
     <port label="limit_db" dir="input" type="control" hint="default_0">
       <name>dB limit</name>
-      <p></p>
       <range min="-50.0" max="0.0"/>
+      <p></p>
     </port>
 
     <port label="wet_gain" dir="input" type="control" hint="default_1">
       <name>Wet level</name>
-      <p>Output level for limited signal.</p>
       <range min="0.0" max="1.0"/>
+      <p>Output level for limited signal.</p>
     </port>
 
     <port label="res_gain" dir="input" type="control" hint="default_0">
       <name>Residue level</name>
-      <p>Output level for residue signal.</p>
       <range min="0.0" max="1.0"/>
+      <p>Output level for residue signal.</p>
     </port>
 
     <port label="input" dir="input" type="audio">

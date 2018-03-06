@@ -97,44 +97,44 @@
 
     <port label="attack" dir="input" type="control" hint="default_low">
       <name>Attack time (ms)</name>
-      <p>The attack time in milliseconds.</p>
       <range min="2" max="400"/>
+      <p>The attack time in milliseconds.</p>
     </port>
 
     <port label="release" dir="input" type="control" hint="default_middle">
       <name>Release time (ms)</name>
-      <p>The release time in milliseconds.</p>
       <range min="2" max="800"/>
+      <p>The release time in milliseconds.</p>
     </port>
 
     <port label="threshold" dir="input" type="control" hint="default_maximum">
       <name>Threshold level (dB)</name>
-      <p>The point at which the compressor will start to kick in.</p>
       <range min="-30" max="0"/>
+      <p>The point at which the compressor will start to kick in.</p>
     </port>
 
     <port label="ratio" dir="input" type="control" hint="default_1">
       <name>Ratio (1:n)</name>
-      <p>The gain reduction ratio used when the signal level exceeds the threshold.</p>
       <range min="1" max="10"/>
+      <p>The gain reduction ratio used when the signal level exceeds the threshold.</p>
     </port>
 
     <port label="knee" dir="input" type="control" hint="default_low">
       <name>Knee radius (dB)</name>
-      <p>The distance from the threshold where the knee curve starts.</p>
       <range min="1" max="10"/>
+      <p>The distance from the threshold where the knee curve starts.</p>
     </port>
 
     <port label="makeup_gain" dir="input" type="control" hint="default_0">
       <name>Makeup gain (dB)</name>
-      <p>Controls the gain of the makeup input signal in dB's.</p>
       <range min="0" max="+24"/>
+      <p>Controls the gain of the makeup input signal in dB's.</p>
     </port>
 
     <port label="chain_bal" dir="input" type="control" hint="default_0">
       <name>Chain balance</name>
-      <p>Controls the chain signal used, 0 = Left+right in, 1 = Sidechain.</p>
       <range min="0" max="1"/>
+      <p>Controls the chain signal used, 0 = Left+right in, 1 = Sidechain.</p>
     </port>
 
     <port label="sidechain" dir="input" type="audio">

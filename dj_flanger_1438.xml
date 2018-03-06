@@ -110,20 +110,20 @@
 
     <port label="period" dir="input" type="control" hint="default_1">
       <name>LFO period (s)</name>
-      <p>The cycle period of the LFO in seconds.</p>
       <range min="0.1" max="32.0"/>
+      <p>The cycle period of the LFO in seconds.</p>
     </port>
 
     <port label="depth" dir="input" type="control" hint="default_high">
       <name>LFO depth (ms)</name>
-      <p>The maximum delay the LFO will use to flange, in milliseconds.</p>
       <range min="1" max="5"/>
+      <p>The maximum delay the LFO will use to flange, in milliseconds.</p>
     </port>
 
     <port label="feedback" dir="input" type="control" hint="default_0">
       <name>Feedback (%)</name>
-      <p>The amount of the delays output that is mixed back into the delay.</p>
       <range min="-100" max="100"/>
+      <p>The amount of the delays output that is mixed back into the delay.</p>
     </port>
 
     <port label="input" dir="input" type="audio">

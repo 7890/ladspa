@@ -28,9 +28,9 @@
 
     <port label="gain" dir="input" type="control" hint="default_0">
       <name>Vocal volume (dB)</name>
+      <range min="-70" max="0"/>
       <p>Controls the attenuation of the vocal (centre channel) in dB's.</p>
       <p>The greater the attenuation the greater the loss of stereo field.</p>
-      <range min="-70" max="0"/>
     </port>
 
     <port label="lin" dir="input" type="audio">

@@ -112,15 +112,15 @@
 
     <port label="pitch" dir="input" type="control" hint="logarithmic,default_1">
       <name>Pitch shift</name>
-      <p>The multiple of the output pitch, eg. 2.0 will increase the pitch by one octave.</p>
       <range min="0.25" max="4.0"/>
+      <p>The multiple of the output pitch, eg. 2.0 will increase the pitch by one octave.</p>
     </port>
 
     <port label="size" dir="input" type="control" hint="integer,default_middle">
       <name>Buffer size</name>
+      <range min="1" max="7"/>
       <p>The order of magnitude of the buffer size. Small buffers will sound fluttery, large buffers will have flangy sounding echos.</p>
       <p>I recommend a buffer size of 3 for a reasonable compromise, with wideband material at around 48KHz. For drums you might have to lower it, and for voiced background noises it can go higher.</p>
-      <range min="1" max="7"/>
     </port>
 
     <port label="input" dir="input" type="audio">

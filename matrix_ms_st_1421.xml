@@ -23,8 +23,8 @@
 
     <port label="width" dir="input" type="control" hint="default_1">
       <name>Width</name>
-      <p>The width of the dematrixed stereo field. 1 will give you normal width, 0 will make it completely mono, &lt; 1 will make it narrower and &gt; 1 will make it wider.</p>
       <range min="0" max="2" />
+      <p>The width of the dematrixed stereo field. 1 will give you normal width, 0 will make it completely mono, &lt; 1 will make it narrower and &gt; 1 will make it wider.</p>
     </port>
 
     <port label="mid" dir="input" type="audio">

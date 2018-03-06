@@ -57,14 +57,14 @@
 
     <port label="rate" dir="input" type="control" hint="sample_rate,default_maximum">
       <name>Resample rate</name>
-      <p>The rate at which the output signal will be resampled</p>
       <range min="0" max="1"/>
+      <p>The rate at which the output signal will be resampled</p>
     </port>
 
     <port label="smooth" dir="input" type="control" hint="default_maximum">
       <name>Smoothing</name>
-      <p>The amount of smoothing on the output signal.</p>
       <range min="0" max="1"/>
+      <p>The amount of smoothing on the output signal.</p>
     </port>
 
     <port label="input" dir="input" type="audio">

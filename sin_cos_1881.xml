@@ -45,14 +45,14 @@
 
     <port label="freq" dir="input" type="control" hint="default_440,sample_rate,logarithmic">
       <name>Base frequency (Hz)</name>
+      <range min="0.000001" max="0.5"/>
       <p>The base frequency of the output waves.</p>
-     <range min="0.000001" max="0.5"/>
     </port>
 
     <port label="pitch" dir="input" type="control" hint="default_0">
       <name>Pitch offset</name>
+      <range min="0" max="8"/>
       <p>The pitch offset of the output waves. Final oscillator frequency is $base + 2\^pitch$.</p>
-     <range min="0" max="8"/>
     </port>
 
     <port label="sine" dir="output" type="audio">

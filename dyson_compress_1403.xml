@@ -319,26 +319,26 @@
 
     <port label="peak_limit" dir="input" type="control" hint="default_0">
       <name>Peak limit (dB)</name>
-      <p>Controls the desired limit of the output signal in dB's.</p>
       <range min="-30" max="0"/>
+      <p>Controls the desired limit of the output signal in dB's.</p>
     </port>
 
     <port label="release_time" dir="input" type="control" hint="default_low">
       <name>Release time (s)</name>
-      <p>Controls the time taken for the compressor to relax its gain control over the input signal.</p>
       <range min="0" max="1"/>
+      <p>Controls the time taken for the compressor to relax its gain control over the input signal.</p>
     </port>
 
     <port label="cfrate" dir="input" type="control" hint="default_middle">
       <name>Fast compression ratio</name>
-      <p>I have no clear idea what this controls.</p>
       <range min="0" max="1"/>
+      <p>I have no clear idea what this controls.</p>
     </port>
 
     <port label="crate" dir="input" type="control" hint="default_middle">
       <name>Compression ratio</name>
-      <p>I have no clear idea what this controls.</p>
       <range min="0" max="1"/>
+      <p>I have no clear idea what this controls.</p>
     </port>
 
     <port label="input" dir="input" type="audio">

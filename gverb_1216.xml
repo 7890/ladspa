@@ -79,45 +79,45 @@ Comments and suggestions should be mailed to Juhana Sadeharju
 
     <port label="roomsize" dir="input" type="control" hint="default_low">
       <name>Roomsize (m)</name>
+      <range min="1" max="300"/>
       <p>The size of the room, in meters. Excessivly large, and excessivly small values will make it sound a bit unrealistic.</p>
       <p>Values of around 30 sound good.</p>
-      <range min="1" max="300"/>
     </port>
 
     <port label="revtime" dir="input" type="control" hint="default_low">
       <name>Reverb time (s)</name>
-      <p>Reverb decay time, in seconds. 7 is a good place to start.</p>
       <range min="0.1" max="30"/>
+      <p>Reverb decay time, in seconds. 7 is a good place to start.</p>
     </port>
 
     <port label="damping" dir="input" type="control" hint="default_middle">
       <name>Damping</name>
-      <p>This controls the high frequency damping (a lowpass filter), values near 1 will make it sound very bright, values near 0 will make it sound very dark.</p>
       <range min="0" max="1"/>
+      <p>This controls the high frequency damping (a lowpass filter), values near 1 will make it sound very bright, values near 0 will make it sound very dark.</p>
     </port>
 
     <port label="inputbandwidth" dir="input" type="control" hint="default_high">
       <name>Input bandwidth</name>
-      <p>This is like a damping control for the input, it has a similar effect to the damping control, but is subtly different.</p>
       <range min="0" max="1"/>
+      <p>This is like a damping control for the input, it has a similar effect to the damping control, but is subtly different.</p>
     </port>
 
     <port label="drylevel" dir="input" type="control" hint="default_minimum">
       <name>Dry signal level (dB)</name>
-      <p>The amount of dry signal to be mixed with the reverberated signal.</p>
       <range min="-70" max="0"/>
+      <p>The amount of dry signal to be mixed with the reverberated signal.</p>
     </port>
 
     <port label="earlylevel" dir="input" type="control" hint="default_0">
       <name>Early reflection level (dB)</name>
-      <p>The quantity of early reflections (scatter reflections directly from the source). Think of Lexicons ambiance patches.</p>
       <range min="-70" max="0"/>
+      <p>The quantity of early reflections (scatter reflections directly from the source). Think of Lexicons ambiance patches.</p>
     </port>
 
     <port label="taillevel" dir="input" type="control" hint="default_high">
       <name>Tail level (dB)</name>
-      <p>The level of the classic reverb tail reflections.</p>
       <range min="-70" max="0"/>
+      <p>The level of the classic reverb tail reflections.</p>
     </port>
 
     <port label="input" dir="input" type="audio">

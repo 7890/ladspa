@@ -166,38 +166,38 @@ but beware of it.</p>
 
     <port label="freq1" dir="input" type="control" hint="default_1">
       <name>LFO frequency 1 (Hz)</name>
-      <p>The delay of the first LFO in seconds.</p>
       <range min="0" max="30.0"/>
+      <p>The delay of the first LFO in seconds.</p>
     </port>
 
     <port label="delay1" dir="input" type="control" hint="default_low">
       <name>Delay 1 range (s)</name>
-      <p>The delay range of the first LFO in seconds.</p>
       <range min="0" max="10.5"/>
+      <p>The delay range of the first LFO in seconds.</p>
     </port>
 
     <port label="freq2" dir="input" type="control" hint="default_1">
       <name>LFO frequency 2 (Hz)</name>
-      <p>The delay of the second LFO in seconds.</p>
       <range min="0" max="30.0"/>
+      <p>The delay of the second LFO in seconds.</p>
     </port>
 
     <port label="delay2" dir="input" type="control" hint="default_0">
       <name>Delay 2 range (s)</name>
-      <p>The delay range of the second LFO in seconds.</p>
       <range min="0" max="10.5"/>
+      <p>The delay range of the second LFO in seconds.</p>
     </port>
 
     <port label="feedback" dir="input" type="control" hint="default_0">
       <name>Feedback</name>
-      <p>The amount of the delays output that is mixed back into the delay.</p>
       <range min="-100" max="100"/>
+      <p>The amount of the delays output that is mixed back into the delay.</p>
     </port>
 
     <port label="wet" dir="input" type="control" hint="default_0">
       <name>Dry/Wet level</name>
-      <p>The amounts of the input and effect mixed to produce the output.</p>
       <range min="0" max="1"/>
+      <p>The amounts of the input and effect mixed to produce the output.</p>
     </port>
 
     <port label="input" dir="input" type="audio">

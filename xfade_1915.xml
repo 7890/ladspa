@@ -28,10 +28,10 @@
 
     <port label="xfade" dir="input" type="control" hint="default_0">
       <name>Crossfade</name>
+      <range min="-1" max="1"/>
       <p>Controls the degree to which the inputs are mixed into the output. A
 value of -1 means that the output is just the A input, and a value of 1.0
 means that it is just the B input.</p>
-      <range min="-1" max="1"/>
     </port>
 
     <port label="inputLA" dir="input" type="audio">
@@ -74,10 +74,10 @@ means that it is just the B input.</p>
 
     <port label="xfade" dir="input" type="control" hint="default_0">
       <name>Crossfade</name>
+      <range min="-1" max="1"/>
       <p>Controls the degree to which the inputs are mixed into the output. A
 value of -1 means that the output is just the A input, and a value of 1.0
 means that it is just the B input.</p>
-      <range min="-1" max="1"/>
     </port>
 
     <port label="inputLA" dir="input" type="audio">

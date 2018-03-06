@@ -89,14 +89,14 @@
 
     <port label="sag" dir="input" type="control" hint="default_0">
       <name>Sag level</name>
-      <p>The level of power supply sag that will be caused by attacks.</p>
       <range min="0" max="1"/>
+      <p>The level of power supply sag that will be caused by attacks.</p>
     </port>
 
     <port label="dist_p" dir="input" type="control" hint="default_0">
       <name>Distortion</name>
-      <p>How harsh the distortion caused by the sag will be.</p>
       <range min="0" max="1"/>
+      <p>How harsh the distortion caused by the sag will be.</p>
     </port>
 
     <port label="input" dir="input" type="audio">

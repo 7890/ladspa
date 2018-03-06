@@ -38,6 +38,7 @@
 
     <port label="wave" dir="input" type="control" hint="integer,default_1">
       <name>Waveform (1=sin, 2=tri, 3=squ, 4=saw)</name>
+      <range min="1" max="BLO_N_WAVES"/>
       <p>The shape of the waveform.</p>
       <p><![CDATA[
 	\begin{tabular}{|r|l|}
@@ -51,13 +52,12 @@
         \hline
 	\end{tabular}
       ]]></p>
-      <range min="1" max="BLO_N_WAVES"/>
     </port>
 
     <port label="fm" dir="input" type="audio" hint="sample_rate,default_440">
       <name>Frequency (Hz)</name>
-      <p>The frequency of the output (in Hertz).</p>
       <range min="-0.25" max="0.25"/>
+      <p>The frequency of the output (in Hertz).</p>
     </port>
 
     <port label="output" dir="output" type="audio">
