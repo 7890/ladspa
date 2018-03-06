@@ -4,5 +4,6 @@ which xmlstarlet >/dev/null || (echo "xmlstarlet not found" && return 1) || retu
 
 ls -1 *.xml \
 	| while read line
-	do xmlstarlet val -e -d ladspa-swh.dtd "$line"
+	do xmlstarlet val -e -d ladspa-swh.dtd "$line" 2>&1 \
+		| grep -v " valid"
 	done
