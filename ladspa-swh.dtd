@@ -19,7 +19,8 @@
 <!ELEMENT name (#PCDATA)>
 
 <!ELEMENT callback (#PCDATA)>
-<!ATTLIST callback event (run|instantiate|activate|cleanup) #REQUIRED>
+<!ATTLIST callback event (run|instantiate|activate|cleanup) #REQUIRED
+                   unused-vars CDATA                        #IMPLIED>
 
 <!ELEMENT port (name, range*, p*)>
 <!ATTLIST port label CDATA           #REQUIRED
