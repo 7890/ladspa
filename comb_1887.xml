@@ -186,7 +186,7 @@
 
     <port label="max_delay" dir="input" type="control" hint="default_1">
       <name>Max Delay (s)</name>
-      <range min="0"/>
+      <range min="0" max="10"/>
       <p>
        Maximum delay. Used to set the delay buffer size upon activation. Cannot
        be modulated. Note that if you do not connect to this port before
@@ -196,12 +196,12 @@
 
     <port label="delay_time" dir="input" type="control" hint="default_0">
       <name>Delay Time (s)</name>
-      <range min="0"/>
+      <range min="0" max="10"/>
     </port>
 
     <port label="decay_time" dir="input" type="control" hint="default_0">
       <name>Decay Time (s)</name>
-      <range min="0"/>
+      <range min="0" max="10"/>
       <p>
        Time for the echoes to decay by 60 decibels. If this time is negative
        then the feedback coefficient will be negative, thus emphasizing only odd
@@ -332,7 +332,7 @@
 
     <port label="max_delay" dir="input" type="control" hint="default_1">
       <name>Max Delay (s)</name>
-      <range min="0"/>
+      <range min="0" max="10"/>
       <p>
        Maximum delay. Used to set the delay buffer size upon activation. Cannot
        be modulated. Note that if you do not connect to this port before
@@ -342,12 +342,12 @@
 
     <port label="delay_time" dir="input" type="control" hint="default_0">
       <name>Delay Time (s)</name>
-      <range min="0"/>
+      <range min="0" max="10"/>
     </port>
 
     <port label="decay_time" dir="input" type="control" hint="default_0">
       <name>Decay Time (s)</name>
-      <range min="0"/>
+      <range min="0" max="10"/>
       <p>
        Time for the echoes to decay by 60 decibels. If this time is negative
        then the feedback coefficient will be negative, thus emphasizing only odd
@@ -482,7 +482,7 @@
 
     <port label="max_delay" dir="input" type="control" hint="default_1">
       <name>Max Delay (s)</name>
-      <range min="0"/>
+      <range min="0" max="10"/>
       <p>
        Maximum delay. Used to set the delay buffer size upon activation. Cannot
        be modulated. Note that if you do not connect to this port before
@@ -492,12 +492,12 @@
 
     <port label="delay_time" dir="input" type="control" hint="default_0">
       <name>Delay Time (s)</name>
-      <range min="0"/>
+      <range min="0" max="10"/>
     </port>
 
     <port label="decay_time" dir="input" type="control" hint="default_0">
       <name>Decay Time (s)</name>
-      <range min="0"/>
+      <range min="0" max="10"/>
       <p>
        Time for the echoes to decay by 60 decibels. If this time is negative
        then the feedback coefficient will be negative, thus emphasizing only odd

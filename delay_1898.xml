@@ -133,7 +133,7 @@
 
     <port label="max_delay" dir="input" type="control" hint="default_1">
       <name>Max Delay (s)</name>
-      <range min="0"/>
+      <range min="0" max="10"/>
       <p>
        Maximum delay. Used to set the delay buffer size upon activation. Cannot
        be modulated. Note that if you do not connect to this port before
@@ -143,7 +143,7 @@
 
     <port label="delay_time" dir="input" type="control" hint="default_0">
       <name>Delay Time (s)</name>
-      <range min="0"/>
+      <range min="0" max="10"/>
     </port>
 
     <instance-data label="buffer" type="LADSPA_Data *" />
@@ -258,7 +258,7 @@
 
     <port label="max_delay" dir="input" type="control" hint="default_1">
       <name>Max Delay (s)</name>
-      <range min="0"/>
+      <range min="0" max="10"/>
       <p>
        Maximum delay. Used to set the delay buffer size upon activation. Cannot
        be modulated. Note that if you do not connect to this port before
@@ -268,7 +268,7 @@
 
     <port label="delay_time" dir="input" type="control" hint="default_0">
       <name>Delay Time (s)</name>
-      <range min="0"/>
+      <range min="0" max="10"/>
     </port>
 
     <instance-data label="buffer" type="LADSPA_Data *" />
@@ -385,7 +385,7 @@
 
     <port label="max_delay" dir="input" type="control" hint="default_1">
       <name>Max Delay (s)</name>
-      <range min="0"/>
+      <range min="0" max="10"/>
       <p>
        Maximum delay. Used to set the delay buffer size upon activation. Cannot
        be modulated. Note that if you do not connect to this port before
@@ -395,7 +395,7 @@
 
     <port label="delay_time" dir="input" type="control" hint="default_0">
       <name>Delay Time (s)</name>
-      <range min="0"/>
+      <range min="0" max="10"/>
     </port>
 
     <instance-data label="buffer" type="LADSPA_Data *" />

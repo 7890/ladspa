@@ -48,7 +48,7 @@
 
     <port label="frequency" dir="input" type="control" hint="default_1">
       <name>Frequency (Hz)</name>
-      <range min="0"/>
+      <range min="0" max="5000"/>
       <p>
        Frequency for the impulses.
       </p>
