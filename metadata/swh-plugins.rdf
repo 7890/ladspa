@@ -10,6 +10,11 @@
          xmlns:dc="&dc;"
          xmlns:ladspa="&ladspa;">
 
+  <ladspa:DynamicsPlugin rdf:about="&ladspa;4701">
+    <dc:creator>Bart Massey &lt;bart.massey@gmail.com&gt;</dc:creator>
+    <dc:title>A-Law Compressor</dc:title>
+  </ladspa:DynamicsPlugin>
+
   <ladspa:DistortionPlugin rdf:about="&ladspa;1407">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
     <dc:title>Aliasing</dc:title>
@@ -2965,6 +2970,34 @@
     </ladspa:hasSetting>
   </ladspa:NotchPlugin>
 
+  <ladspa:UtilityPlugin rdf:about="&ladspa;1916">
+    <dc:creator>Lukas Pirl &lt;lv2@lukas-pirl.de&gt;</dc:creator>
+    <dc:title>Offset, sample-based</dc:title>
+    <ladspa:hasPort>
+      <ladspa:InputControlPort rdf:about="&ladspa;1916.1" ladspa:hasLabel="offset" />
+    </ladspa:hasPort>
+    <ladspa:hasPort>
+      <ladspa:InputControlPort rdf:about="&ladspa;1916.2" ladspa:hasLabel="automatable" />
+    </ladspa:hasPort>
+    <ladspa:hasPort>
+      <ladspa:OutputControlPort rdf:about="&ladspa;1916.5" ladspa:hasLabel="latency" />
+    </ladspa:hasPort>
+    <ladspa:hasSetting>
+      <ladspa:Default>
+        <ladspa:hasPortValue>
+          <ladspa:PortValue rdf:value="0">
+            <ladspa:forPort rdf:resource="&ladspa;1916.1" />
+          </ladspa:PortValue>
+        </ladspa:hasPortValue>
+        <ladspa:hasPortValue>
+          <ladspa:PortValue rdf:value="0">
+            <ladspa:forPort rdf:resource="&ladspa;1916.2" />
+          </ladspa:PortValue>
+        </ladspa:hasPortValue>
+      </ladspa:Default>
+    </ladspa:hasSetting>
+  </ladspa:UtilityPlugin>
+
   <ladspa:PhaserPlugin rdf:about="&ladspa;1217">
     <dc:creator>Steve Harris &lt;steve@plugin.org.uk&gt;</dc:creator>
     <dc:title>LFO Phaser</dc:title>
@@ -4255,6 +4288,11 @@
       </ladspa:Default>
     </ladspa:hasSetting>
   </ladspa:ParaEQPlugin>
+
+  <ladspa:DynamicsPlugin rdf:about="&ladspa;4702">
+    <dc:creator>Bart Massey &lt;bart.massey@gmail.com&gt;</dc:creator>
+    <dc:title>&#956;-Law Compressor</dc:title>
+  </ladspa:DynamicsPlugin>
 
   <ladspa:DistortionPlugin rdf:about="&ladspa;1209">
     <rdf:type rdf:resource="&ladspa;SimulatorPlugin"/>
