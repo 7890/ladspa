@@ -13,17 +13,19 @@
 
 <!ELEMENT plugin (name,p*,callback+,port+,instance-data*)>
 <!ATTLIST plugin label CDATA #REQUIRED
-                 id    CDATA #REQUIRED>
+                 id    CDATA #REQUIRED
+                 class CDATA #REQUIRED>
 
 <!ELEMENT name (#PCDATA)>
 
 <!ELEMENT callback (#PCDATA)>
-<!ATTLIST callback event (run|instatiate|activate|cleanup) #REQUIRED>
+<!ATTLIST callback event (run|instantiate|activate|cleanup) #REQUIRED>
 
 <!ELEMENT port (name, range*, p*)>
 <!ATTLIST port label CDATA           #REQUIRED
                dir   (input|output)  #REQUIRED
-               type  (audio|control) #REQUIRED>
+               type  (audio|control) #REQUIRED
+               hint  CDATA           #IMPLIED>
 
 <!ELEMENT range EMPTY>
 <!ATTLIST range min CDATA #REQUIRED
