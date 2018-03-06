@@ -28,8 +28,8 @@
     ]]></callback>
 
     <port label="level" dir="input" type="control" hint="default_0">
-      <range min="0" max="1"/>
       <name>Aliasing level</name>
+      <range min="0" max="1"/>
       <p>Controls the amount of simulated aliasing in the output.</p>
     </port>
 
